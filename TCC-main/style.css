@@ -1,0 +1,47 @@
+header {
+    font-family:"Jim Nightshade", cursive;
+    background-image: url('maosdsangue.jpg');
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+
+}
+ 
+ 
+ 
+body{
+    text-align: center;
+    background-color : rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-style: italic;
+ }
+ 
+center{
+    text-align: center;
+}
+ 
+img{
+    width: 600px;
+    height: 400px;
+   
+}
+ 
+button{
+color: wheat;
+background-color: rgb(255, 0, 0);
+width: 130px;
+height: 90px;
+position: fixed;right: 1000px;
+ 
+}
+ 
+ 
+footer{
+    font-family:"Jim Nightshade", cursive;
+    background-image: url(maosdsangue.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2px;
+}
+ 
