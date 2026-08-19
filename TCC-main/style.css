@@ -1,33 +1,50 @@
 header {
     font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 300px;
+    font-weight: 500px;
+    font-size: 20px;
     color: #ffffff;
     display: flex;
-    padding: 20px;
+    padding: 25px;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 97%;
     justify-content:space-between;
     align-items: center;
-    backdrop-filter: blur(5px);
-
+    background-image:(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.829)), url('lei\ maria\ da\ penha.jpg');
+    backdrop-filter: blur(10px);
+     
 }
 
+header a {
+    color: #ffffff;
+    text-decoration: none; /* Opcional: remove o sublinhado padrão do link */
+}
 
 body{
-    padding: 0px;
-    text-align: center;
-    background-image : url(lei\ maria\ da\ penha.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.829)), url('lei\ maria\ da\ penha.jpg');
-    color: rgb(255, 0, 0);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 20px;
+    text-align: left;
+    background-image: url(lei\ maria\ da\ penha.jpg);
+    background-color:black;
+    color: rgb(184, 182, 182);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 0px;
    
     
  }
  
+footer{
+    padding: 50px;
+    font-weight: 50px;
+    background-color: rgb(224, 0, 0);
+    color: rgb(128, 128, 128);
+    text-align: left;
+    padding: 0%;
+ }
 center{
     text-align: center;
 }
@@ -39,18 +56,11 @@ img{
 }
  
 button{
-color: wheat;
-background-color: rgb(255, 0, 0);
-width: 130px;
-height: 90px;
-position: fixed;right: 1000px;
+    color: wheat;
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    height: 90px;
+    position: fixed;right: 1000px;
  
 }
  
- 
-footer{
-    background-image: url(maosdsangue.jpg);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1px;
-}
