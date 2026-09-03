@@ -1,122 +1,245 @@
-header {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #ffffff;
-    display: flex;
-    padding: 20px;
-    word-spacing: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 97%;
-    justify-content:space-between;
-    align-items: center;
-    backdrop-filter: blur(10px);
-     
-}
+<!DOCTYPE html>
+<link rel="icon" type="image/png" href="F vermelho.png">
+<html>
+<meta charset="UTF-8">
+<meta name= viewport content="width="width-content, initial-scale="1.0">
+<title>Feminicídio-ZERO</title>
+<link rel="stylesheet" href="style.css">
+<script src="tcc.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+<header>
+    <strong style="color: white;">
+        <span style="color: rgba(236, 71, 71, 0.854);">FEMINICÍDIO</span>-ZERO
+    </strong>
+    <div>
+        <a style="margin-left: 20px;"></a>
+        <a href="#SOBRE" class="link-header">[SOBRE]</a>
+        <a href="#TIPOS" class="link-header">|TIPOS|</a>
+        <a href="#HISTÓRIA" class="link-header">|HISTÓRIA|</a>
+        <a href="#SAIBA" class="link-header">|SAIBA MAIS|</a>
+        <a href="#MASCULINIDADE" class="link-header">|MASCULINIDADE SAUDÁVEL|</a>
+        <a href="#DENUNCIA" class="link-header">|DENÚNCIA|</a>
+        <a href="#CONTATO" class="link-header">|CONTATO|</a>
+    </div>
+</header>
+<body>
 
-header a {
-    color: #ffffff;
-    text-decoration: none; /* Opcional: remove o sublinhado padrão do link */
-}
-
-hr {
-    border: none;
-    height: 1px;
-    background-color: rgb(151, 28, 28);
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}
-body{    
-    padding: 50px;
-    text-align: left;
-    background: url('lei\ maria\ da\ penha.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color:rgb(23, 22, 22);
-    color: rgb(197, 194, 194);
-    background-repeat: no-repeat;
-    height: 0px;
-}
-
-.linha {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 900;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-.container {
-    display: flex;
-    align-items: center; /* Alinha o texto verticalmente ao centro da imagem */
-    gap: 100px; /* Espaço entre a imagem e o texto */
-}
-  
-.container img {
-    width: 400px; /* Defina o tamanho desejado para a imagem */
-}
-.container-cards {
-    display: flex;          
-    gap: 20px;             
-    flex-wrap: wrap;       
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 20px;
-}
-
-.card {
-    flex: 1;               
-    min-width: 250px;      
-    padding: 20px;
-    background-color: #2a2929; /* Mudado para combinar com o fundo escuro */
-    border: 1px solid rgb(151, 28, 28); /* Borda vermelha sutil */
-    border-radius: 8px;
-    color: #ffffff;
-    box-sizing: border-box;
-}
-  
-h1{
-    font-size: 50px;
-    font-family: 'Barlow Condensed', sans-serif;
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section id="SOBRE">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+    <h4 style="color:rgba(236, 71, 71, 0.854) ;">SOBRE O SITE</h4>
+    <h1> O QUE É O</h1>
+    <h1><strong style="color: rgb(184, 182, 182)">
+        <span style="color: rgba(236, 71, 71, 0.854);">FEMINICÍDIO</span>-ZERO?</strong></h1>
     
-}
-h3{
-    max-width: 50%;
-}
+    <br>
+    <div class="container">
+       <h3>Nosso trabalho de Conclusão de Curso desenvolvido por Pedro Correa, João Fernando, Bryan Miguel e Marcos Vinicius utiliza o Desenvolvimento de Sistemas para estruturar uma plataforma informativa sobre o combate ao feminicídio. O projeto foca na organização de dados e no fornecimento de orientações claras, servindo como uma base de conhecimento acessível e segura.
+            A arquitetura do sistema prioriza a disseminação de informações críticas, como estatísticas reais, legislações vigentes e canais oficiais de apoio. Através de uma interface intuitiva, o software organiza conteúdos educativos que auxiliam na identificação de sinais de violência e na compreensão dos direitos das vítimas. O desenvolvimento une técnica e consciência social, transformando a programação em um veículo de informação essencial para a sociedade.
+       </h3>
+            <img src="maria da penha.jpg" alt="imagem">
+    </div>
+      
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+    <section id="TIPOS">
+        <br><br><br>
+    <h1 >TIPOS DE <span style="color:rgba(210, 69, 69, 0.854);">VIOLÊNCIA</span></h1>
+    <div class="Tipo">
+        <div class="linha">
+            <span>FISÍCA</span>
+            <span>Agressões que causam dano corporal: socos, chutes, empurrões, queimaduras.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span>PSICOLÓGICA</span>
+            <span>Humilhações, ameaças, chantagens, isolamento e controle emocional.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span>SEXUAL</span>
+            <span>Qualquer ato sexual não consentido, mediante força, ameaça ou intimidação.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span>PATRIMONIAL</span>
+            <span>Controle ou destruição de bens, documentos e recursos financeiros da vítima.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span>MORAL</span>
+            <span>Calúnia, difamação ou injúria que afetam a honra e reputação da mulher.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span style="color:rgba(210, 69, 69, 0.854);">FEMINICÍDIO</span>
+            <span>Assassinato de mulher por razões de gênero. Crime hediondo — pena de 12 a 30 anos.</span>
+          </div>     
+<br>
+<br>
+<br>
+<br>
+    </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section id="HISTÓRIA">
+<br>
+        <h1>HISTÓRIA DA <strong style="color:rgba(210, 69, 69, 0.854);">LEI</strong></h1>
+        <div class="linha">
+            <span>1983</span>
+            <span>
+                Maria da Penha Maia Fernandes sofre a primeira tentativa de homicídio pelo marido, que simulou um assalto e disparou contra ela enquanto dormia, deixando-a paraplégica.</span>
+          </div>
+        <hr>
+        <div class="linha">
+            <span>1984</span>
+            <span>
+                Segunda tentativa: o marido tenta eletrocutá-la durante o banho. Apesar das provas, o processo judicial no Brasil durou mais de 15 anos sem condenação definitiva.</span>
+          </div>
+        <hr>
+        <div class="linha">
+            <span>1994</span>
+            <span>Maria da Penha publica o livro 'Sobrevivi... Posso Contar', relatando sua história e denunciando a impunidade do agressor.</span>
+          </div>
+        <hr>
+        <div class="linha">
+            <span>1998</span>
+            <span>O caso é levado à Comissão Interamericana de Direitos Humanos da OEA, que responsabiliza o Brasil por negligência e omissão em casos de violência doméstica.</span>
+          </div>
+        <hr>
+        <div class="linha">
+            <span>2002</span>
+            <span>A OEA recomenda ao Brasil a criação de legislação específica para coibir a violência doméstica contra a mulher. O agressor é finalmente preso, 19 anos após o crime.</span>
+          </div>
+        <hr>
+        <div class="linha">
+            <span style="color:rgba(210, 69, 69, 0.854);">2006</span>
+            <span>
+                Em 7 de agosto, o presidente sanciona a Lei nº 11.340. É considerada pela ONU uma das três melhores legislações do mundo no enfrentamento à violência de gênero.</span>
+          </div>
+        <hr> 
+        <div class="linha">
+            <span>2015</span>
+            <span>
+                A Lei do Feminicídio (nº 13.104) é sancionada, incluindo o assassinato de mulheres por razões de gênero como crime hediondo no Código Penal Brasileiro.</span>
+          </div>
+        <hr>
+          <br><br><br>
+        <h3><strong style="color: rgb(158, 45, 45);"> Maria da Penha (Lei nº 11.340) foi sancionada em 7 de agosto de 2006 pelo presidente Luiz Inácio Lula da Silva, mudando a forma como o Brasil lida com a violência doméstica</strong></h3>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section id="SAIBA">
+<br>
+<br>
+<br>
+        <h4 style="color:rgba(210, 69, 69, 0.854);">Atualidades</h4>
+        <h1>SAIBA <strong style="color:rgba(210, 69, 69, 0.854);">MAIS</strong></h1>
+        <img src="noticia.jpeg" style="width: 750px; height: auto; aspect-ratio: 16/9;">
+        <a href="https://www1.folha.uol.com.br/ilustrada/2026/03/serie-estopim-resgata-historias-de-mulheres-vitimas-de-violencia-no-brasil.shtml" target="_blank">
+            <h2>Série 'Estopim' resgata histórias de mulheres vítimas de violência no Brasil</h2>
+        </a>
+    </section>
+<br>
+<br>
+    <section id="MASCULINIDADE">
+<br>
+<br>
+<br>
+<br>
+<section id="MASCULINIDADE">
+    <br><br><br><br>
+    <h1>Masculinidade Saudável</h1>
 
-footer {
-    background-color: #19191b; 
-    color: #ffffff;
-    width: 100%;          
-    padding: 0;             
-    text-align: left;
-    left: 0;
-    right: 0;
-    margin: 0;
-    box-sizing: border-box; /* Garante que o padding não quebre o layout */        
-}
-center{
-    text-align: center;
-}
- 
-img {
-    max-width: 100%;
-    height: auto;
-}
- 
-button{
-    color: wheat;
-    background-color: rgb(255, 255, 255);
-    width: 130px;
-    height: 90px;
-    position: fixed;right: 1000px;
- 
-}
- 
+</section>
+
+<hr>
+
+<section id="DENUNCIA">
+    <br><br><br><br>
+    <h4 style="color:rgba(236, 71, 71, 0.854) ;">CANAIS OFICIAIS DE ATENDIMENTO</h4>
+    <h1>
+        <strong style="color: rgba(236, 71, 71, 0.854)">
+            <span style="color: rgba(255, 242, 242, 0.854);">DENÚNCIE.<br></span>SALVE VIDAS.
+        </strong>
+    </h1>
+    <h3>Todas as ligações são gratuitas, funcionam 24 horas por dia, 7 dias por semana. O atendimento pode ser feito de forma anônima.</h3>
+    
+    <!-- Cards agora vão alinhar perfeitamente lado a lado -->
+    <div class="container-cards">
+        <div class="card">
+            <h1 style="color: rgb(172, 57, 57);">180</h1>
+            <h2><strong>Central de Atendimento à Mulher</strong></h2>
+            <h3>Recebe denúncias, orienta e encaminha para serviços especializados de proteção à mulher.</h3>
+            <br><br><br><br<br><br>
+            <h5>Gratuito · 24h · Todo o Brasil</h5>
+        </div>
+        <div class="card">
+            <h1 style="color: rgb(172, 57, 57);">190</h1>
+            <h2><strong>Polícia Militar (Emergência)</strong></h2>
+            <h3>Em situação de emergência imediata ou perigo de vida, ligue para a polícia militar.</h3>
+            <br><br><br><br><br>
+            <h5 style="height: min-content;">Gratuito · 24h · Todo o Brasil</h5>
+        </div>
+        <div class="card">
+            <h1 style="color: rgb(172, 57, 57);">181</h1>
+            <h2><strong>Disque Denúncia Anônima</strong></h2>
+            <h3>Denúncia completamente anônima. Nenhum dado seu é registrado. Disponível em todo o país.</h3>
+            <br><br><br>
+            <h5>Gratuito · 24h · Todo o Brasil</h5>
+        </div>
+    </div>
+</section>
+
+<br><br><br><br>
+
+<footer>
+<hr>
+    <section id="CONTATO">
+        <br><br>
+        <h2>CONTATO</h2>
+        <h3>✉️ 0000111160468xsp@al.educacao.sp.gov.br</h3>
+        <h3>📱 (19) 98275-6473</h3>
+        <h4>CRIADO POR: Bryan Miguel Andrade Lima </h4>
+    </section>
+</footer>
+
+</body>
+</html>
