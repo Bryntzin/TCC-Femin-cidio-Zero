@@ -1,7 +1,8 @@
+  
 header {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
     display: flex;
     padding: 20px;
@@ -14,7 +15,6 @@ header {
     justify-content:space-between;
     align-items: center;
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     z-index: 9999;
      
 }
@@ -34,63 +34,7 @@ header a {
   .link-header:hover {
     color: #a93434; /* Nova cor de destaque (ex: amarelo) */
   }
-
-.dropdown {
-    color: #c2abab; /* Cor branca padrão */
-    text-decoration: none; /* Remove o sublinhado se quiser */
-    transition: color 0.3s ease; /* Faz a transição de cor ficar suave */
-  }
-.dropdown{  
-position: relative;
-display: inline-flex;
-align-items: center;
-}
-
-.dropdown:hover{
-    color: #a93434;
-}
- 
-/* Caixa flutuante que aparece ao passar o mouse */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2a2929; /* Cor escura idêntica aos seus cards */
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
-    border: 1px solid rgb(151, 28, 28); /* Borda vermelha igual ao seu padrão */
-    border-radius: 4px;
-    z-index: 99999;
-    top: 100%;
-    left: 20px; /* Alinha perfeitamente abaixo do texto TIPOS */
-    margin-top: 5px;
-}
- 
-/* Links internos da caixinha (Física, Sexual, etc) */
-.dropdown-content a {
-    color: #ffffff !important;
-    padding: 10px 15px;
-    font-size: 16px !important; /* Letra ligeiramente menor para submenus ficarem organizados */
-    font-weight: 700 !important;
-    display: block !important;
-    width: 100%;
-    text-align: left;
-    margin: 0 !important;
-}
- 
-/* Efeito ao passar o mouse nos sublinks */
-.dropdown-content a:hover {
-    background-color: rgb(151, 28, 28) !important;
-}
- 
-/* Faz o menu aparecer */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
- 
-/* Ativa o efeito de rolagem suave na página */
-html {
-    scroll-behavior: smooth;
-}
+  
 hr {
     border: none;
     height: 1px;
@@ -101,6 +45,11 @@ hr {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
 }
 body{    
     padding: 50px;
@@ -122,6 +71,10 @@ body{
     width: 100%;
 }
 
+/* Ativa o efeito de rolagem suave na página */
+html {
+    scroll-behavior: smooth;
+}
 .span{
     width: 10px;
 }
@@ -159,12 +112,70 @@ h1{
     font-family: 'Barlow Condensed', sans-serif;
     
 }
-h3{
-    max-width: 50%;
+
+h2{
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
+h3{
+    max-width: 70%;
+    font-size: 17px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Alinha os cards um ao lado do outro com espaço entre eles */
+.cards-container {
+    display: flex;  
+    flex-wrap: grid; /* Faz quebrar de linha em telas pequenas (celular) */
+    grid-template-columns: repeat(2, 1fr); /* Cria exatamente 2 colunas de tamanhos iguais */
+    gap: 20px;
+    max-width: 1000px; /* Controla a largura máxima total da seção de cards */
+    margin: 0 auto; /* Centraliza o bloco inteiro na tela */
+    padding: 20px;
+}  
+/* Container em Grid para travar em no máximo 2 colunas */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Força exatamente 2 colunas */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+/* O card box */
+.card-box {
+    min-width: 500px; /* Largura mínima de cada card */
+    max-width: 700px; /* Largura máxima de cada card */
+    display: flex; /* Mudado de block para flex para ajudar a alinhar a altura interna */
+    flex-direction: column;
+     min-height: 250px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2e2c2c;
+    border: 1px solid #2a2929;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.89);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+}  
+ 
+/* Efeito Hover */
+.card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(255, 0, 0, 0.2);
+    color:rgb(151, 28, 28);
+}
+ 
+/* Conteúdo interno */
+.card-conteudo {
+    padding: 20px;
+    flex-grow: 1; /* Faz com que o fundo escuro preencha toda a altura do Grid */
+}
+ 
 footer {
-    background-color: #19191b; 
+    background-color: rgb(23, 22, 22);
     color: #ffffff;
     width: 100%;          
     padding: 0;             
