@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
 <link rel="icon" type="image/png" href="F vermelho.png">
-<html>
 <meta charset="UTF-8">
-<meta name= viewport content="width="width-content, initial-scale="1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Feminicídio-ZERO</title>
 <link rel="stylesheet" href="style.css">
-<script src="tcc.js"></script>
+<script src="tcc.js?v=3" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
 <header>
     <strong style="color: white;">
         <span style="color: rgba(236, 71, 71, 0.854);">FEMINICÍDIO</span>-ZERO
@@ -20,7 +23,41 @@
         <a href="#DENUNCIA" class="link-header">DENÚNCIA</a>
         <a href="#CONTATO" class="link-header">CONTATO</a>
 </header>
-<body>
+<button
+  id="botao-acessibilidade"
+  class="botao-acessibilidade"
+  aria-label="Abrir acessibilidade"
+  aria-expanded="false"
+  aria-controls="painel-acessibilidade"
+>
+  <img
+    src="imagem_2026-10-09_113735244.png"
+    alt=""
+    class="icone-acessibilidade"
+  >
+</button>
+
+<div id="painel-acessibilidade" class="painel-acessibilidade" hidden>
+  <h2>ACESSIBILIDADE</h2>
+
+  <p>Tamanho da fonte</p>
+
+  <div class="controle-fonte">
+    <button id="diminuir-fonte" type="button">−</button>
+    <span id="valor-fonte">20px</span>
+    <button id="aumentar-fonte" type="button">+</button>
+  </div>
+
+  <button id="alternar-claro" class="opcao" type="button">
+    <span>☾ Modo claro</span>
+    <span id="estado-claro">OFF</span>
+  </button>
+
+  <button id="alternar-contraste" class="opcao" type="button">
+    <span>◐ Alto contraste</span>
+    <span id="estado-contraste">OFF</span>
+  </button>
+</div>
 
 <br>
 <br>
@@ -268,11 +305,8 @@
 <section id="DENUNCIA">
     <br><br><br><br>
     <h4 style="color:rgba(236, 71, 71, 0.854) ;">CANAIS OFICIAIS DE ATENDIMENTO</h4>
-    <h1>
-        <strong style="color: rgba(236, 71, 71, 0.854)">
-            <span style="color: rgba(255, 242, 242, 0.854);">DENÚNCIE.<br></span>SALVE VIDAS.
-        </strong>
-    </h1>
+    <h1 class="titulo-denuncie">DENUNCIE.</h1>
+    <h1 style="color: rgba(236, 71, 71, 0.854) ;">SALVE VIDAS.</h1>
     <p>Todas as ligações são gratuitas, funcionam 24 horas por dia, 7 dias por semana.</p>
     <h3>O atendimento pode ser feito de forma anônima</h3>
     
@@ -306,16 +340,42 @@
 
 <br><br>
 
-<footer>
-<hr>
-  <section id = 
-    <section id="CONTATO">
-        <br><br>
-        <h1><strong style="color: rgb(172, 57, 57)">CONTATO</strong></h1>
-        <h2>✉️ 0000111160468xsp@al.educacao.sp.gov.br</h2>
-        <h2>📱 (19) 98275-6473</h2>
-        <h3>CRIADO POR: Bryan Miguel Andrade Lima  ;  Pedro Henrique Correa de Souza</h3>
-    </section>
+<footer class="footer-site" id="CONTATO">
+  <div class="footer-conteudo">
+    <div class="footer-coluna footer-sobre">
+      <h2 class="footer-logo">FEMINICÍDIO<br>ZERO</h2>
+      <p>Plataforma educativa sobre o combate ao feminicídio no Brasil. Trabalho de Conclusão de Curso — Desenvolvimento de Sistemas.</p>
+      <span class="footer-linha" aria-hidden="true"></span>
+    </div>
+
+    <div class="footer-coluna footer-navegacao">
+      <h3>NAVEGAÇÃO</h3>
+      <nav aria-label="Navegação do rodapé">
+        <a href="#SOBRE">SOBRE</a>
+        <a href="#SAIBA">VÍDEOS</a>
+        <a href="#SAIBA">SAIBA MAIS</a>
+        <a href="#DENUNCIA">DENÚNCIA</a>
+        <a href="#CONTATO">CONTATO</a>
+      </nav>
+    </div>
+
+    <div class="footer-coluna footer-contato">
+      <h3>CONTATO</h3>
+      <div class="footer-contato-item">
+        <span class="footer-icone" aria-hidden="true">✉</span>
+        <a href="mailto:0000111160468xsp@al.educacao.sp.gov.br">0000111160468xsp@al.educacao.sp.gov.br</a>
+      </div>
+      <div class="footer-contato-item">
+        <span class="footer-icone" aria-hidden="true">☎</span>
+        <a href="tel:+5519982756473">(19) 98275-6473</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-inferior">
+    <p>Criado por <strong>Bryan Miguel Andrade Lima</strong> · <strong>Pedro Correa</strong> · <strong>João Fernando</strong> · <strong>Marcos Vinicius</strong></p>
+    <p class="footer-creditos">TCC — Desenvolvimento de Sistemas</p>
+  </div>
 </footer>
 
 </body>
